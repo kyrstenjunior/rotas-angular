@@ -1,10 +1,18 @@
 header {
-  a {
-    color: black;
-  }
+  padding: 15px 3%;
 
-  .activated {
-    color: red;
-    text-decoration: underline;
+  ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+
+    a {
+      color: #fff;
+    }
+
+    .activated {
+      color: red;
+      text-decoration: underline;
+    }
   }
 }
